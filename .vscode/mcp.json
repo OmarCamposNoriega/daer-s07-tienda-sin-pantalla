@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "tienda": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/myvenv/Scripts/python.exe",
+      "args": ["${workspaceFolder}/manage.py", "servidor_mcp"]
+    }
+  }
+}
